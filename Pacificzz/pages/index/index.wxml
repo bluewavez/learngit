@@ -1,0 +1,20 @@
+<view>
+    <button bindtap='chargeUp'>开始记账</button>
+      <text style="color: lightgray">温馨提示：本工具仅作为临时备忘使用，多种因素可造成数据丢失，请不要记录重要数据\n</text>
+      <text decode="{{true}}" style='margin-top:20rpx'>总&nbsp;消&nbsp;&nbsp;费：{{total}}元 \n今日消费：{{today}}元</text>
+    <view class='productPage'>
+  <view class='productCell' wx:for="{{chargeList}}" id='{{index}}'>
+    <view class='itemBack' catchtap='clickItem' data-index="{{index}}">
+      <view class='itemContent'>
+        <view>日期:{{item.date}}</view>
+        <view> ￥:{{item.price}}</view>
+        <view>详情:{{item.describ}}</view>
+      </view>
+    </view>
+    <view class='spaceView'></view>
+  </view>
+</view>
+<button class='clear-button' bindtap='clearCharge'>清空账本</button>
+</view>
+
+

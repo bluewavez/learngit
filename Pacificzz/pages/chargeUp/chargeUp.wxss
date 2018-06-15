@@ -1,0 +1,2 @@
+/* pages/chargeUp/chargeUp.wxss */
+@import '/utils/weui.wxss';
