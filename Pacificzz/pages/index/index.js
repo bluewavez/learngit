@@ -95,10 +95,26 @@ totalMoney:function(){
   onLoad: function() {
   },
 
+  sortList:function(){
+    for(var i =0;i<chargeList.length;i++){
+for(var j = 0; j<chargeList.length-i-1;j++){
+  var time = chargeList[j].date.replace(new RegExp(/(-)/g),"")
+  var timenext = chargeList[j + 1].date.replace(new RegExp(/(-)/g), "")
+if(time < timenext){
+var temp = chargeList[j+1]
+chargeList[j+1] = chargeList[j]
+chargeList[j] = temp
+}
+
+}
+    }
+  },
+
   onShow:function(){
     var that = this;
     try {
-      chargeList = wx.getStorageSync('chargeList')
+      chargeList = wx.getStorageSync('chargeList'),
+      that.sortList()
       that.setData({
         chargeList: chargeList,
       })
