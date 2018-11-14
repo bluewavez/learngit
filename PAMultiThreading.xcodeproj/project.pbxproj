@@ -13,6 +13,8 @@
 		1E37B1B5219BC09800504198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1B4219BC09800504198 /* Assets.xcassets */; };
 		1E37B1B8219BC09800504198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1B6219BC09800504198 /* LaunchScreen.storyboard */; };
 		1E37B1BB219BC09800504198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1BA219BC09800504198 /* main.m */; };
+		1E37B1CE219C21A100504198 /* type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1CD219C21A100504198 /* type.plist */; };
+		1E37B1D1219C3F5600504198 /* MultiThreadingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1D0219C3F5600504198 /* MultiThreadingViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		1E37B1B7219BC09800504198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E37B1B9219BC09800504198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E37B1BA219BC09800504198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E37B1CC219C187200504198 /* PAMultiThreadingPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAMultiThreadingPrefixHeader.pch; sourceTree = "<group>"; };
+		1E37B1CD219C21A100504198 /* type.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = type.plist; sourceTree = "<group>"; };
+		1E37B1CF219C3F5600504198 /* MultiThreadingViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadingViewModel.h; sourceTree = "<group>"; };
+		1E37B1D0219C3F5600504198 /* MultiThreadingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadingViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,14 @@
 		1E37B1AA219BC09500504198 /* PAMultiThreading */ = {
 			isa = PBXGroup;
 			children = (
+				1E37B1CB219C17D800504198 /* New Group1 */,
+				1E37B1CA219C17D200504198 /* Utils */,
 				1E37B1AB219BC09500504198 /* AppDelegate.h */,
 				1E37B1AC219BC09500504198 /* AppDelegate.m */,
 				1E37B1AE219BC09500504198 /* ViewController.h */,
 				1E37B1AF219BC09500504198 /* ViewController.m */,
+				1E37B1CF219C3F5600504198 /* MultiThreadingViewModel.h */,
+				1E37B1D0219C3F5600504198 /* MultiThreadingViewModel.m */,
 				1E37B1B1219BC09500504198 /* Main.storyboard */,
 				1E37B1B4219BC09800504198 /* Assets.xcassets */,
 				1E37B1B6219BC09800504198 /* LaunchScreen.storyboard */,
@@ -69,6 +79,22 @@
 				1E37B1BA219BC09800504198 /* main.m */,
 			);
 			path = PAMultiThreading;
+			sourceTree = "<group>";
+		};
+		1E37B1CA219C17D200504198 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1E37B1CC219C187200504198 /* PAMultiThreadingPrefixHeader.pch */,
+				1E37B1CD219C21A100504198 /* type.plist */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		1E37B1CB219C17D800504198 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +156,7 @@
 			files = (
 				1E37B1B8219BC09800504198 /* LaunchScreen.storyboard in Resources */,
 				1E37B1B5219BC09800504198 /* Assets.xcassets in Resources */,
+				1E37B1CE219C21A100504198 /* type.plist in Resources */,
 				1E37B1B3219BC09500504198 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E37B1B0219BC09500504198 /* ViewController.m in Sources */,
+				1E37B1D1219C3F5600504198 /* MultiThreadingViewModel.m in Sources */,
 				1E37B1BB219BC09800504198 /* main.m in Sources */,
 				1E37B1AD219BC09500504198 /* AppDelegate.m in Sources */,
 			);
