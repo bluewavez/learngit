@@ -13,6 +13,7 @@
 		1E37B1B5219BC09800504198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1B4219BC09800504198 /* Assets.xcassets */; };
 		1E37B1B8219BC09800504198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1B6219BC09800504198 /* LaunchScreen.storyboard */; };
 		1E37B1BB219BC09800504198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1BA219BC09800504198 /* main.m */; };
+		1E55FB36226AF36A009190D1 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E55FB35226AF36A009190D1 /* PersonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1E37B1B7219BC09800504198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E37B1B9219BC09800504198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E37B1BA219BC09800504198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E55FB34226AF36A009190D1 /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		1E55FB35226AF36A009190D1 /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				1E37B1AB219BC09500504198 /* AppDelegate.h */,
 				1E37B1AC219BC09500504198 /* AppDelegate.m */,
+				1E55FB34226AF36A009190D1 /* PersonViewController.h */,
+				1E55FB35226AF36A009190D1 /* PersonViewController.m */,
 				1E37B1AE219BC09500504198 /* ViewController.h */,
 				1E37B1AF219BC09500504198 /* ViewController.m */,
 				1E37B1B1219BC09500504198 /* Main.storyboard */,
@@ -144,6 +149,7 @@
 				1E37B1B0219BC09500504198 /* ViewController.m in Sources */,
 				1E37B1BB219BC09800504198 /* main.m in Sources */,
 				1E37B1AD219BC09500504198 /* AppDelegate.m in Sources */,
+				1E55FB36226AF36A009190D1 /* PersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
