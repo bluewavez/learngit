@@ -17,6 +17,7 @@
 /**
 *第二次修改文件
 */
+@property(nonatomic, strong)UITableView *MainTable;
 @end
 
 @implementation ViewController
