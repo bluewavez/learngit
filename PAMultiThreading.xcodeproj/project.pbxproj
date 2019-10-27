@@ -1,33 +1,33 @@
 // !$*UTF8*$!
 {
-    archiveVersion = 1;
-    classes = {
-    };
-    objectVersion = 50;
-    objects = {
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
 
 /* Begin PBXBuildFile section */
-        1E37B1AD219BC09500504198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1AC219BC09500504198 /* AppDelegate.m */; };
-        1E37B1B0219BC09500504198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1AF219BC09500504198 /* ViewController.m */; };
-        1E37B1B3219BC09500504198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1B1219BC09500504198 /* Main.storyboard */; };
-        1E37B1B5219BC09800504198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1B4219BC09800504198 /* Assets.xcassets */; };
-        1E37B1B8219BC09800504198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1B6219BC09800504198 /* LaunchScreen.storyboard */; };
-        1E37B1BB219BC09800504198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1BA219BC09800504198 /* main.m */; };
+		1E37B1AD219BC09500504198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1AC219BC09500504198 /* AppDelegate.m */; };
+		1E37B1B0219BC09500504198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1AF219BC09500504198 /* ViewController.m */; };
+		1E37B1B3219BC09500504198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1B1219BC09500504198 /* Main.storyboard */; };
+		1E37B1B5219BC09800504198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1B4219BC09800504198 /* Assets.xcassets */; };
+		1E37B1B8219BC09800504198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1B6219BC09800504198 /* LaunchScreen.storyboard */; };
+		1E37B1BB219BC09800504198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1BA219BC09800504198 /* main.m */; };
 		1E37B1CE219C21A100504198 /* type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1CD219C21A100504198 /* type.plist */; };
 		1E37B1D1219C3F5600504198 /* MultiThreadingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1D0219C3F5600504198 /* MultiThreadingViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-        1E37B1A8219BC09500504198 /* PAMultiThreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAMultiThreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
-        1E37B1AB219BC09500504198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-        1E37B1AC219BC09500504198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-        1E37B1AE219BC09500504198 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-        1E37B1AF219BC09500504198 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-        1E37B1B2219BC09500504198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-        1E37B1B4219BC09800504198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-        1E37B1B7219BC09800504198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-        1E37B1B9219BC09800504198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        1E37B1BA219BC09800504198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E37B1A8219BC09500504198 /* PAMultiThreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAMultiThreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E37B1AB219BC09500504198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E37B1AC219BC09500504198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E37B1AE219BC09500504198 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E37B1AF219BC09500504198 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E37B1B2219BC09500504198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E37B1B4219BC09800504198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E37B1B7219BC09800504198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E37B1B9219BC09800504198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E37B1BA219BC09800504198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E37B1CC219C187200504198 /* PAMultiThreadingPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAMultiThreadingPrefixHeader.pch; sourceTree = "<group>"; };
 		1E37B1CD219C21A100504198 /* type.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = type.plist; sourceTree = "<group>"; };
 		1E37B1CF219C3F5600504198 /* MultiThreadingViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadingViewModel.h; sourceTree = "<group>"; };
