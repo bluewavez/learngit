@@ -24,7 +24,7 @@
 
 -(void)loadView{
     [super loadView];
-    NSLog(@"loadView");
+    NSLog(@"loadViewz");
 }
 
 - (void)viewDidLoad {
