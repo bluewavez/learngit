@@ -9,7 +9,7 @@
 #define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**
  *修改文件
  */
