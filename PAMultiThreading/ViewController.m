@@ -8,7 +8,7 @@
 #define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
 #import "ViewController.h"
-
+#import "MultiThreadingViewModel.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**
  *修改文件
@@ -28,7 +28,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    {
+        NSLog(@"{}的作用");
+    }
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -83,6 +85,7 @@
 #pragma mark tableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [MultiThreadingViewModel testThreadByType:indexPath.row];
 }
 
 @end
