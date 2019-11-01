@@ -8,8 +8,8 @@
 #define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "MultiThreadingViewModel.h"
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**
  *修改文件
  */
@@ -24,12 +24,13 @@
 
 -(void)loadView{
     [super loadView];
-    NSLog(@"loadViewz");
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    {
+        NSLog(@"{}的作用");
+    }
     // Do any additional setup after loading the view, typically from a nib.
 }
 
