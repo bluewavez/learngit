@@ -84,7 +84,7 @@
 #pragma mark tableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [MultiThreadingViewModel testThreadByType:indexPath.row];
+//    [MultiThreadingViewModel testThreadByType:indexPath.row];
 }
 
 @end
