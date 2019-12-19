@@ -15,7 +15,6 @@
 		1E37B1BB219BC09800504198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1BA219BC09800504198 /* main.m */; };
 		1E37B1CE219C21A100504198 /* type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1CD219C21A100504198 /* type.plist */; };
 		1E37B1D1219C3F5600504198 /* MultiThreadingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1D0219C3F5600504198 /* MultiThreadingViewModel.m */; };
-		1ED2EACF23AB828F0087EB91 /* type的副本.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2EACE23AB828E0087EB91 /* type的副本.plist */; };
 		BAFD0590775EC17D89B68807 /* Pods_PAMultiThreading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FAF5B4EB80D70ACA17DAEC /* Pods_PAMultiThreading.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 		1E37B1CD219C21A100504198 /* type.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = type.plist; sourceTree = "<group>"; };
 		1E37B1CF219C3F5600504198 /* MultiThreadingViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadingViewModel.h; sourceTree = "<group>"; };
 		1E37B1D0219C3F5600504198 /* MultiThreadingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadingViewModel.m; sourceTree = "<group>"; };
-		1ED2EACE23AB828E0087EB91 /* type的副本.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "type的副本.plist"; sourceTree = "<group>"; };
 		1EFBFC0023AB5F2900C0F08C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		76E26C676127A707619D1785 /* Pods-PAMultiThreading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAMultiThreading.debug.xcconfig"; path = "Target Support Files/Pods-PAMultiThreading/Pods-PAMultiThreading.debug.xcconfig"; sourceTree = "<group>"; };
 		B63844DD9FC1EA223DA6EB60 /* Pods-PAMultiThreading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAMultiThreading.release.xcconfig"; path = "Target Support Files/Pods-PAMultiThreading/Pods-PAMultiThreading.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			children = (
 				1E37B1CC219C187200504198 /* PAMultiThreadingPrefixHeader.pch */,
 				1E37B1CD219C21A100504198 /* type.plist */,
-				1ED2EACE23AB828E0087EB91 /* type的副本.plist */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -179,7 +176,6 @@
 			files = (
 				1E37B1B8219BC09800504198 /* LaunchScreen.storyboard in Resources */,
 				1E37B1B5219BC09800504198 /* Assets.xcassets in Resources */,
-				1ED2EACF23AB828F0087EB91 /* type的副本.plist in Resources */,
 				1E37B1CE219C21A100504198 /* type.plist in Resources */,
 				1E37B1B3219BC09500504198 /* Main.storyboard in Resources */,
 			);
