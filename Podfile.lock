@@ -1,0 +1,20 @@
+PODS:
+  - JTMasonry (0.1.0)
+  - JTMBProgressHUD (0.1.0)
+
+DEPENDENCIES:
+  - JTMasonry
+  - JTMBProgressHUD
+
+SPEC REPOS:
+  http://10.237.2.60/zhangguolong/ZXJTSpecs.git:
+    - JTMasonry
+    - JTMBProgressHUD
+
+SPEC CHECKSUMS:
+  JTMasonry: 3397ce034c2cc75788745acc1030942fdfb588de
+  JTMBProgressHUD: 5c3267ba40729cf64630c3c1e1a279bbd0ed788e
+
+PODFILE CHECKSUM: 3f70a069adb970ac9a438a375f817694acbd9484
+
+COCOAPODS: 1.8.4

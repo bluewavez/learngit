@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,9 +15,11 @@
 		1E37B1BB219BC09800504198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1BA219BC09800504198 /* main.m */; };
 		1E37B1CE219C21A100504198 /* type.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E37B1CD219C21A100504198 /* type.plist */; };
 		1E37B1D1219C3F5600504198 /* MultiThreadingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E37B1D0219C3F5600504198 /* MultiThreadingViewModel.m */; };
+		BAFD0590775EC17D89B68807 /* Pods_PAMultiThreading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FAF5B4EB80D70ACA17DAEC /* Pods_PAMultiThreading.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03FAF5B4EB80D70ACA17DAEC /* Pods_PAMultiThreading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PAMultiThreading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E37B1A8219BC09500504198 /* PAMultiThreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAMultiThreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E37B1AB219BC09500504198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E37B1AC219BC09500504198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +34,9 @@
 		1E37B1CD219C21A100504198 /* type.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = type.plist; sourceTree = "<group>"; };
 		1E37B1CF219C3F5600504198 /* MultiThreadingViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadingViewModel.h; sourceTree = "<group>"; };
 		1E37B1D0219C3F5600504198 /* MultiThreadingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadingViewModel.m; sourceTree = "<group>"; };
+		1EFBFC0023AB5F2900C0F08C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		76E26C676127A707619D1785 /* Pods-PAMultiThreading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAMultiThreading.debug.xcconfig"; path = "Target Support Files/Pods-PAMultiThreading/Pods-PAMultiThreading.debug.xcconfig"; sourceTree = "<group>"; };
+		B63844DD9FC1EA223DA6EB60 /* Pods-PAMultiThreading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PAMultiThreading.release.xcconfig"; path = "Target Support Files/Pods-PAMultiThreading/Pods-PAMultiThreading.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFD0590775EC17D89B68807 /* Pods_PAMultiThreading.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +56,8 @@
 			children = (
 				1E37B1AA219BC09500504198 /* PAMultiThreading */,
 				1E37B1A9219BC09500504198 /* Products */,
+				5FEE8F0D5E9ACFF8D264CFF8 /* Pods */,
+				30050D8ED799D5D8D51E38AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +79,7 @@
 				1E37B1AF219BC09500504198 /* ViewController.m */,
 				1E37B1CF219C3F5600504198 /* MultiThreadingViewModel.h */,
 				1E37B1D0219C3F5600504198 /* MultiThreadingViewModel.m */,
+				1EFBFC0023AB5F2900C0F08C /* PrefixHeader.pch */,
 				1E37B1B1219BC09500504198 /* Main.storyboard */,
 				1E37B1B4219BC09800504198 /* Assets.xcassets */,
 				1E37B1B6219BC09800504198 /* LaunchScreen.storyboard */,
@@ -89,6 +98,23 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		30050D8ED799D5D8D51E38AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03FAF5B4EB80D70ACA17DAEC /* Pods_PAMultiThreading.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FEE8F0D5E9ACFF8D264CFF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76E26C676127A707619D1785 /* Pods-PAMultiThreading.debug.xcconfig */,
+				B63844DD9FC1EA223DA6EB60 /* Pods-PAMultiThreading.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E37B1BE219BC09800504198 /* Build configuration list for PBXNativeTarget "PAMultiThreading" */;
 			buildPhases = (
+				64ACFEF49E24397B84FCB640 /* [CP] Check Pods Manifest.lock */,
 				1E37B1A4219BC09500504198 /* Sources */,
 				1E37B1A5219BC09500504198 /* Frameworks */,
 				1E37B1A6219BC09500504198 /* Resources */,
+				FF7D6815EAA1B4DEAFB7BEAF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +182,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64ACFEF49E24397B84FCB640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PAMultiThreading-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7D6815EAA1B4DEAFB7BEAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PAMultiThreading/Pods-PAMultiThreading-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PAMultiThreading/Pods-PAMultiThreading-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PAMultiThreading/Pods-PAMultiThreading-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E37B1A4219BC09500504198 /* Sources */ = {
@@ -303,9 +373,11 @@
 		};
 		1E37B1BF219BC09800504198 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E26C676127A707619D1785 /* Pods-PAMultiThreading.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PAMultiThreading/PrefixHeader.pch";
 				INFOPLIST_FILE = PAMultiThreading/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -319,9 +391,11 @@
 		};
 		1E37B1C0219BC09800504198 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63844DD9FC1EA223DA6EB60 /* Pods-PAMultiThreading.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PAMultiThreading/PrefixHeader.pch";
 				INFOPLIST_FILE = PAMultiThreading/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
