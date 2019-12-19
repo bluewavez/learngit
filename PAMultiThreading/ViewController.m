@@ -9,6 +9,8 @@
 #define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
 #import "ViewController.h"
 #import "MultiThreadingViewModel.h"
+#import <MBProgressHUD.h>
+#import <Masonry.h>
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**
  *修改文件
@@ -24,6 +26,7 @@
 
 -(void)loadView{
     [super loadView];
+    
 }
 
 - (void)viewDidLoad {
@@ -31,6 +34,7 @@
     {
         NSLog(@"{}的作用");
     }
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -38,11 +42,15 @@
     [super viewWillLayoutSubviews];
     NSLog(@"viewWillLayoutSubviews");
     [self.view addSubview:self.MainTable];
+    [self.MainTable mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.bottom.right.offset(0);
+    }];
 }
 
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:YES];
     NSLog(@"viewDidAppear");
+[MBProgressHUD showHUDAddedTo:self.MainTable animated:YES];
 }
 
 -(void)viewWillAppear:(BOOL)animated{
