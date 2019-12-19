@@ -1,0 +1,6 @@
+framework module JTMBProgressHUD {
+  umbrella header "JTMBProgressHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

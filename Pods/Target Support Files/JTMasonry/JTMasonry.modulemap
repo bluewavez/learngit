@@ -1,0 +1,6 @@
+framework module JTMasonry {
+  umbrella header "JTMasonry-umbrella.h"
+
+  export *
+  module * { export * }
+}
